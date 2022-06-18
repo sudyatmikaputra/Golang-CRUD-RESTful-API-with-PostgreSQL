@@ -5,14 +5,13 @@ Golang CRUD RESTful API with PostgreSQL
 go mod name : gotest
 
 ### Package :
-gorilla/mux : go get -u github.com/gorilla/mux
-lib/pq : go get github.com/lib/pq
+gorilla/mux : go get -u github.com/gorilla/mux  
+lib/pq : go get github.com/lib/pq  
 joho/godotenv : go get github.com/joho/godotenv
 
 ### Database
-database name : gotest
-
-owner : postgres
+database name : gotest  
+owner : postgres  
 Create Table Query :
 ```CREATE TABLE car
 (
