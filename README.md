@@ -1,8 +1,7 @@
 # Golang-CRUD-RESTful-API-with-PostgreSQL
 Golang CRUD RESTful API with PostgreSQL
-
+<hr style="border:1px solid gray">
 ### Initialization
-<hr style="border:2px solid gray">
 go mod name : gotest
 
 ### Package :
