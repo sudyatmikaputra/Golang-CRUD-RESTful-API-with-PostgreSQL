@@ -58,3 +58,14 @@ JSON Body for Update Car By Car Name :
 	"car_description":"Super Car"
 }
 ```
+## API Handling and Features
+1. http://127.0.0.1:1111/api/car 		//GET Method => Get all car data
+2. http://127.0.0.1:1111/api/car 		//POST Method with JSON Body => Add car
+3. http://127.0.0.1:1111/api/car/{id}		//GET Method => Get car data by id
+4. http://127.0.0.1:1111/api/car/{id}		//PUT Method with JSON Body => Update existed car data by id
+5. http://127.0.0.1:1111/api/car/{id}		//DELETE Method => Delete car data by id
+6. http://127.0.0.1:1111/api/carbrand/{brand}	//GET Method => Get car data by brand name
+7. http://127.0.0.1:1111/api/carbrand/{brand}	//DELETE Method => Delete car data by brand name
+8. http://127.0.0.1:1111/api/carname/{name}	//GET Method => Get car data by car name
+9. http://127.0.0.1:1111/api/carname/{name}	//PUT Method with JSON Body => Update car data by car name
+10. http://127.0.0.1:1111/api/carname/{name}	//DELETE Method => Delete car data by car name
