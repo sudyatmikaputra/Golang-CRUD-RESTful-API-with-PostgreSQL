@@ -11,7 +11,8 @@ joho/godotenv : go get github.com/joho/godotenv
 
 ### Database
 database name : gotest  
-owner : postgres  
+owner : postgres
+
 Create Table Query :
 ```CREATE TABLE car
 (
