@@ -31,7 +31,8 @@ ALTER TABLE car
  
 ## JSON Body
 JSON Body for AddCar :
-```{
+```
+{
 	"car_id":1,
 	"car_name":"Murcielago",
     	"car_brand":"Lamborghini",
@@ -41,7 +42,8 @@ JSON Body for AddCar :
 }
 ```
 JSON Body for Update Car By ID :
-```{
+```
+{
 	"car_name":"Murcielago",
     	"car_brand":"Lamborghini",
     	"car_type":"Exotic",
@@ -50,7 +52,8 @@ JSON Body for Update Car By ID :
 }
 ```
 JSON Body for Update Car By Car Name :
-```{
+```
+{
 	"car_id":1,
     	"car_brand":"Lamborghini",
     	"car_type":"Exotic",
